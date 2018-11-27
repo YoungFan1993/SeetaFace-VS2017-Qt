@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OpenVideoClass</class>
+ <widget class="QWidget" name="OpenVideoClass">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1125</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>OpenVideo</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>UiFile/eye_128px_1204362_easyicon.net.ico</normaloff>UiFile/eye_128px_1204362_easyicon.net.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>75</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>打开视频</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelOpenVideo">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>881</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777213</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>                            积跬步，至千里</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>470</y>
+     <width>75</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777214</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>打开摄像头</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>470</y>
+     <width>101</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>关闭摄像头/视频</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>470</y>
+     <width>75</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>拍照/截图</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelScreenShot">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>400</y>
+     <width>201</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>470</y>
+     <width>75</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>录制视频</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>470</y>
+     <width>75</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>结束录制</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonDetectionAndAlignment">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>470</y>
+     <width>101</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>人脸检测与对齐</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="InputImageLabel">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>0</y>
+     <width>251</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="OutputImageLabel">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>200</y>
+     <width>261</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>470</y>
+     <width>101</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#070707;&quot;&gt;提供一张图片&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+}
+QPushButton:hover
+{
+    color:white;
+    background-color:rgb(0 , 137 , 255);
+    border: 1px solid rgb(11 , 137 , 234);
+}
+QPushButton:pressed
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(80, 200, 59);
+}</string>
+   </property>
+   <property name="text">
+    <string>输入图片</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>UiFile/picture_128px_1201195_easyicon.net.ico</normaloff>UiFile/picture_128px_1201195_easyicon.net.ico</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>45</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonFaceRecognition">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>470</y>
+     <width>101</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#030303;&quot;&gt;进行人脸识别&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    color:white;
+}
+QPushButton:hover
+{
+    color:white;
+    background-color:rgb(0 , 137 , 255);
+    border: 1px solid rgb(11 , 137 , 234);
+}
+QPushButton:pressed
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(80, 200, 59);
+}</string>
+   </property>
+   <property name="text">
+    <string>人脸识别</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>UiFile/Button_circle_person_128px_1198024_easyicon.net.ico</normaloff>UiFile/Button_circle_person_128px_1198024_easyicon.net.ico</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>45</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="SimilarityLabel">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>380</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelGif">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>420</y>
+     <width>1141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDateTime">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>170</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;隶书&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelFaceNum">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>10</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(103, 5, 200);
+font: 14pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CloseButton">
+   <property name="geometry">
+    <rect>
+     <x>1075</x>
+     <y>-1</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;关闭&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>UiFile/closeWhite.png</normaloff>UiFile/closeWhite.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <zorder>labelGif</zorder>
+  <zorder>labelOpenVideo</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>labelScreenShot</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>buttonDetectionAndAlignment</zorder>
+  <zorder>label</zorder>
+  <zorder>InputImageLabel</zorder>
+  <zorder>OutputImageLabel</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>buttonFaceRecognition</zorder>
+  <zorder>SimilarityLabel</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>labelDateTime</zorder>
+  <zorder>labelFaceNum</zorder>
+  <zorder>CloseButton</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="OpenVideo.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>OpenVideoFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>77</x>
+     <y>302</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>OpenCamera()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>492</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>136</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>CloseCamera()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>711</x>
+     <y>365</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>ScreenShot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>233</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>278</x>
+     <y>317</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>REC()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>308</x>
+     <y>471</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>333</x>
+     <y>364</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>EndREC()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>610</x>
+     <y>428</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonDetectionAndAlignment</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>FaceDetectionAlignment()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>442</x>
+     <y>295</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>InputImage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>918</x>
+     <y>475</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>955</x>
+     <y>410</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonFaceRecognition</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>FaceRecognition()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1110</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1091</x>
+     <y>443</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>CloseButton</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenVideoClass</receiver>
+   <slot>CloseWindow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1115</x>
+     <y>11</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1086</x>
+     <y>215</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>OpenVideoFile()</slot>
+  <slot>OpenCamera()</slot>
+  <slot>CloseCamera()</slot>
+  <slot>ScreenShot()</slot>
+  <slot>REC()</slot>
+  <slot>EndREC()</slot>
+  <slot>FaceDetectionAlignment()</slot>
+  <slot>InputImage()</slot>
+  <slot>FaceRecognition()</slot>
+  <slot>CloseWindow()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenVideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="OpenVideo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MyThread.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="OpenVideo.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="OpenVideo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SeetaFaceHeader\surf_mlp_model_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\surf_mlp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\surf_feature_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\sift.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\nms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\model_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\mlp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\math_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\lab_feature_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\lab_boosted_classifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\lab_boost_model_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\image_pyramid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\fust.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\feature_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\face_detection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\face_alignment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\detector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\classifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\cfan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\aligner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\bias_adder_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\blob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\bn_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\common_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\conv_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\eltwise_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\face_identification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\hyper_param.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\inner_product_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\math_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\max_pooling_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\net_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\pad_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\recognizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\spatial_transform_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\tform_maker_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeetaFaceHeader\FaceIdentification\viplnet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
